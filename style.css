@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: white;
+    padding: 15px 12px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.wyborjezyka {
+    margin-left: 20px;
+    padding: 5px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-lewy {
+    display: flex;
+    align-items: center;
+}
+
+.header-srodek {
+    display: flex;
+    align-items: center;
+}
+
+.header-prawy {
+    display: flex;
+    align-items: center;
+}
+
+.kategorieselect {
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+
+}
+.szukacz {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 700px;
+    margin-right: 10px;
+}
+
+.szukacz-przycisk {
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-link, .cart-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.koszyk-ikonka {
+    width: 30px;
+    height: auto;
+    margin-right: 4px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+}
+
+.category {
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 3px;
+padding: 12px;
+    width: 450px;
+}
+
+.category h2 {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.category img {
+    margin-bottom: 6px;
+    border-radius: 1px;
+}
